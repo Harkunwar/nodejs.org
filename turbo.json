@@ -9,7 +9,7 @@
       ],
       "outputMode": "full"
     },
-    "test:unit:ci": {
+    "best:unit:ci": {
       "inputs": [
         "{components,hooks,layouts,providers,types,util}/**/*.{ts,tsx}",
         "jest.config.mjs",
