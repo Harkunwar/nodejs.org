@@ -17,6 +17,12 @@
       ],
       "outputMode": "full"
     },
+    "test:storybook:ci": {
+      "inputs": [
+        "{components,hooks,layouts,providers,types,util}/**/*.{ts,tsx}"
+      ],
+      "outputMode": "full"
+    },
     "lint": {
       "inputs": [
         "{components,hooks,layouts,providers,types,util}/**/*.{ts,tsx}",
