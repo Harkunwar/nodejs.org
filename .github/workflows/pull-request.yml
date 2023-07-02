@@ -34,14 +34,14 @@ jobs:
       - name: Install NPM packages
         run: npm ci
 
-      - name: Run Linting
-        run: npx turbo lint
+      - name: Run Prettier
+        run: npx turbo prettier
         env:
           TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
           TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
-      - name: Run Prettier
-        run: npx turbo prettier
+      - name: Run Linting
+        run: npx turbo lint
         env:
           TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
           TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
